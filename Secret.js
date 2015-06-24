@@ -69,49 +69,6 @@ function getLetters() {
 	return "abcdefghijklmnopqrstuvwxyz ";
 }
 
-// "hello"
-
-
-// function encode () {
-// 	message = str.indexOf(getKey); 
-// 	console.log(encode);
-// }
 
 
 
-// function decode () {
-// 	var y = str.indexOf(message); 
-// 	console.log(y);
-// }
-
-// if statement - that if the input from the promt contains alphabetic - use that string? and get the indexOF getKey
-// 	console.log the outcome of that getKey index 
-
-// or if the input message is coded - use that string? and get the indexOf getLetters
-// 	console.log the outcome of that getLetters index 
-
-
-
-// ["h", "e", "l", "l", "o"]
-// ["a", "b", "c"].forEach(func)
-
-// for (i=0; i < array.length; i++ ) {
-// 	var sourceIndex = getLetters().indexOf(character);
-// 	getKey()[sourceIndex]
-// }
-
-// encodedMessage = arr.map(function(element, index) {
-// 	var sourceIndex = getLetters().indexOf(element)
-// 	var encodedCharacter = getKey()[sourceIndex]
-// 	return encodedCharacter
-// })
-
-// alert( encodedMessage.join('') ) 
-
-
-
-
-
-// 1. splitting the string into an array
-// 2. for each of the characters, i'll find a corresponding index value in the getLetters() at the same index
-// 3. join the encoded characters
