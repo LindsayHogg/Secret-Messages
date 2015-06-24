@@ -34,7 +34,7 @@
 //	--------------------------------------- 
 // var secretCode = prompt("Enter a message in our secret language");
 
-var message = prompt("Enter a message or a secret on in our coded language!");
+var str = prompt("Enter a message or a secret on in our coded language!");
 
 var arr = str.split('')
 
@@ -45,6 +45,7 @@ encodedMessage = arr.map(function(element, index) {
 })
 
 alert( encodedMessage.join('') ) 
+
 
 //  ---------------------------------------
 
